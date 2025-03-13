@@ -1,0 +1,24 @@
+// This is a representation of the parameters for ExplosionParticle.sks
+// SpriteKit Particle Editor settings:
+
+particleTexture: nil
+particleBirthRate: 1000
+particleLifetime: 1.0
+particlePositionRange: CGVector(dx: 10, dy: 10)
+particleSpeed: 100
+particleSpeedRange: 50
+particleAlpha: 1.0
+particleAlphaRange: 0.5
+particleAlphaSpeed: -1.0
+particleScale: 0.2
+particleScaleRange: 0.1
+particleScaleSpeed: -0.1
+particleColor: UIColor.orange
+particleColorBlendFactor: 1.0
+particleBlendMode: .add
+particleColorSequence: createColorSequence(colors: [.white, .yellow, .orange, .red, .clear])
+emissionAngle: 0
+emissionAngleRange: CGFloat.pi * 2 // All directions
+particleZPosition: 5
+maxParticles: 1000
+duration: 0.5 // Emit for 0.5 seconds, then stop

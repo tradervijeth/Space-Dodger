@@ -1,0 +1,22 @@
+// This is a representation of the parameters for ThrustParticle.sks
+// SpriteKit Particle Editor settings:
+
+particleTexture: nil
+particleBirthRate: 100
+particleLifetime: 0.5
+particlePositionRange: CGVector(dx: 3, dy: 0)
+particleSpeed: 40
+particleSpeedRange: 20
+particleAlpha: 1.0
+particleAlphaRange: 0.3
+particleAlphaSpeed: -1.0
+particleScale: 0.15
+particleScaleRange: 0.1
+particleScaleSpeed: -0.1
+particleColor: UIColor.orange
+particleColorBlendFactor: 1.0
+particleBlendMode: .add
+particleColorSequence: createColorSequence(colors: [.yellow, .orange, .red, .clear])
+emissionAngle: CGFloat.pi * 1.5 // Downwards
+emissionAngleRange: CGFloat.pi / 12
+yAcceleration: 0

@@ -1,0 +1,22 @@
+// This is a representation of the parameters for EngineTrailParticle.sks
+// SpriteKit Particle Editor settings:
+
+particleTexture: nil
+particleBirthRate: 50
+particleLifetime: 1.0
+particlePositionRange: CGVector(dx: 5, dy: 0)
+particleSpeed: 20
+particleSpeedRange: 10
+particleAlpha: 0.8
+particleAlphaRange: 0.2
+particleAlphaSpeed: -0.5
+particleScale: 0.1
+particleScaleRange: 0.05
+particleScaleSpeed: -0.05
+particleColor: UIColor.lightGray
+particleColorBlendFactor: 1.0
+particleBlendMode: .add
+particleColorSequence: createColorSequence(colors: [.cyan, .blue, .clear])
+emissionAngle: CGFloat.pi * 1.5 // Downwards
+emissionAngleRange: CGFloat.pi / 8
+yAcceleration: 0
